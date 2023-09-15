@@ -11,6 +11,7 @@ intents.presences = False
 bot = commands.Bot(
     command_prefix="!",  # Change to desired prefix
     case_insensitive=True  # Commands aren't case-sensitive
+    intents=intents
 )
 
 @bot.event 
